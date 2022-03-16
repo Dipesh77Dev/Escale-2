@@ -1,0 +1,12 @@
+http:localhost:3000/ - Welcome Message or http:localhost:3000/product
+http:localhost:3000/product/getProduct - Showing Product (Get Method)
+http:localhost:3000/product/addProduct - Adding Product (Post Method)
+http:localhost:3000/product/:id - Update Product (Update Method)
+http:localhost:3000/product/ - Delete Product (Delete Method)
+http:localhost:3000/product/:id - Delete by Id Product (Delete Method)
+
+http:localhost:3000/user/getUser - Getting User (Get Method)
+http:localhost:3000/user/addUser - Adding User (Post Method)
+
+http:localhost:3000/business/getBusinessDetails - Getting Business Details (Get Method)
+http:localhost:3000/business/addBusinessDetails - Adding Business Details (Post Method)

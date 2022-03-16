@@ -1,0 +1,1 @@
+exports.url = "mongodb+srv://Dipesh:admin@cluster0.agjew.mongodb.net/EScale-2?retryWrites=true&w=majority";

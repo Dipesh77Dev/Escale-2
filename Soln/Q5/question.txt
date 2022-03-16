@@ -1,0 +1,23 @@
+Q5. Creating an application to manage the interaction between 3 controllers and CRUD over
+the same.
+1. There will be 3 controllers, Users, Business, and Products.
+User { name, email, bio, profilePic }
+Business { name, email, registrationNo }
+Products { name, mrp, description, image[2] }
+So the purpose is to see how good you are while managing multiple collections.
+You have to create the following APIs
+1. Create User
+2. User can have multiple businesses
+3. User can post product as an individual or through his business
+C - create
+R - Read
+U - Update
+D - Delete
+Functionalities for different collection
+1. User - C, R
+2. Business - C, R
+3. Products - C, R, U, D
+All the fields mentioned above shall be there, apart from this do add all the fields you feel are
+important for referencing 3 collections
+Indexing is required for all three collections. And make sure proper session is managed for
+the logged-in user 
